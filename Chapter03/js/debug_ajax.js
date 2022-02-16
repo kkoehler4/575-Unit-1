@@ -51,7 +51,7 @@ function addColumns(cityPop){
 
     document.querySelectorAll("tr").forEach(function(row, i){
 		
-		//makes a third column that characterizes each city as Small, Medium, or Large based on population
+		//makes a third column that characterizes each city as Small, Medium, or Large based on populations
     	if (i == 0){
     		row.insertAdjacentHTML('beforeend', '<th>City Size</th>');
     	} else {
